@@ -2,7 +2,7 @@
   text-align: center;
   width: 100%;
 }
-.HelloWorld {
+.Note {
   border: 2px solid black;
   text-align: center;
   background: #f5f5f5;
@@ -11,16 +11,35 @@
   padding: 20px;
 }
 
-.HelloWorldList {
-  margin: 20px;
-  padding: 20px;
+.left {
+  margin: 1px;
   border: 2px solid #00D8FF;
   background: #DDEEFF;
-  width: 40%;
+  width: 32%;
   display: inline-block;
+  float: left;
 }
 
-.AddGreeter {
+.right {
+  float: right;
+  width: 60%;
+}
+
+.Clock {
+  margin: 0px;
+  padding: 0px;
+  border: 2px solid #00FFD8;
+  background: #DDFFEE;
+  text-align: center;
+  width: 20%;
+  float: right;
+}
+
+h5 {
+  margin: 3px;
+}
+
+.AddNote {
   margin: 20px;
   padding: 20px;
   border: 2px solid #00FFD8;
@@ -28,11 +47,10 @@
   text-align: center;
 }
 
-.GoodbyeWorld {
-  border: 2px solid black;
-  text-align: center;
-  background: #f5f5f5;
-  color: #333;
+.ViewNote {
   margin: 20px;
   padding: 20px;
+  border: 2px solid #00FFD8;
+  background: #DDFFEE;
+  text-align: center;
 }

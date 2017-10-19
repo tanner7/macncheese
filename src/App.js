@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import HelloWorldList from './HelloWorldList';
-import GoodbyeWorld from './GoodbyeWorld';
+import NoteList from './NoteList';
 
 const App = () => {
   return (
     <div className="App">
-      <HelloWorldList />
+      <NoteList />
     </div>
   );
 };
