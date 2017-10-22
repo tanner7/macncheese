@@ -33,7 +33,7 @@ class NoteList extends Component {
       		key={notes.noteName}
       		name={notes.noteName}
           content={notes.noteContent}
-          currentNoteNote={this.currentNoteList}
+          currentNote={this.currentNoteList}
       	  removeNote={this.removeNote}
     />
   ));

@@ -14,12 +14,15 @@ class ViewNote extends Component {
 
 }
 
+  
+
   render() {
     return (
       <div className="ViewNote">
       	<h2>ViewNote</h2>
       	<b>{this.state.name}</b> {this.state.noteName}
       	<br/>
+        <br/>
       	<b>{this.state.description}</b> {this.state.noteContent}
         <br/>
         <br/>
