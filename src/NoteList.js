@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Note from './Note';
-import Clock from './Clock';
 import PropsState from './PropsState';
 import ViewNote from './ViewNote';
 import AddNote from './AddNote';
@@ -16,7 +15,7 @@ class NoteList extends Component {
                          {noteName: 'Leinenkugels', noteContent: 'Red'},
                          {noteName: 'Natty', noteContent: 'Ice'}
                          ],
-                  currentNote: [{noteName: 'Bud', noteContent: 'Light'}]
+                  currentNote: [{noteName: '', noteContent: ''}]
                 };
 
 
@@ -66,7 +65,7 @@ class NoteList extends Component {
   		const filteredNotes = this.state.notes.filter(notes => {
     	return notes.noteName !== removeName;
   	});
-  	this.setState({ notes: filteredNotes });
+  	this.setState({ notes: filteredNotes, currentNote: [{ noteName: '', noteContent: '' }]});
   }
 
   render() {

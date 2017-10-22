@@ -8,9 +8,9 @@ class ViewNote extends Component {
   	super(props);
 
   	this.state = {noteName: 'Note Name:',
-  				        noteContent: 'Note Content:'};
-
-  	this.currentNoteView = this.currentNoteView.bind(this);
+  				        noteContent: 'Note Content:',
+                  name: 'Name:',
+                  description: 'Description:'};
 
 }
 
@@ -18,16 +18,23 @@ class ViewNote extends Component {
     return (
       <div className="ViewNote">
       	<h2>ViewNote</h2>
-      	<b>{this.state.noteName}</b> {this.props.name}
+      	<b>{this.state.name}</b> {this.state.noteName}
       	<br/>
-      	<b>{this.state.noteContent}</b> {this.props.content}
+      	<b>{this.state.description}</b> {this.state.noteContent}
+        <br/>
+        <br/>
+        <button>Edit</button>
       </div>
     );
   }
 
-  currentNoteView(currentNote) {
-  	this.setState({ currentNote });
+  componentWillMount() {
+    this.setState({
+      noteName: this.props.name, noteContent: this.props.content
+    })
   }
+
+
 
 
 }
