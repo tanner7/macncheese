@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 	// a './' refers to local files not a library
+import PropsState from './PropsState';
 import './Note.css';
 
 
 class Note extends Component {
 
-	// props is only accessible as a property on the HelloWorld obj
+	// props are only accessible as a property on the Note obj
 	constructor(props) {
 
 	   // calls to parent constructor: Component
   	super(props);
 
-  	// sets the note prop to 'Hello'
-
-  	// binds editNote to this obj so it can refer to it as 'this' in rendor
+  	// binds currentNote to this obj so it can refer to it as 'this' in rendor
   	this.currentNoteNote = this.currentNoteNote.bind(this);
 
   	this.removeNote = this.removeNote.bind(this);
@@ -23,6 +22,7 @@ class Note extends Component {
 	render() {
   		return (
     		<div className="Note">
+          <PropsState name={this.props.name} />
       		{this.props.name}
       		<br/>
           <button onClick={this.currentNoteNote}>View</button><button onClick={this.removeNote}>Remove</button>

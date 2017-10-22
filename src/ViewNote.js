@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './Note.css';
 
+
+// view note simply displays a note that NoteList gave it as a prop
 class ViewNote extends Component {
 	constructor(props) {
   	super(props);
 
   	this.state = {noteName: 'Note Name:',
-  				  noteContent: 'Note Content:'};
+  				        noteContent: 'Note Content:'};
 
   	this.currentNoteView = this.currentNoteView.bind(this);
 
@@ -15,10 +17,10 @@ class ViewNote extends Component {
   render() {
     return (
       <div className="ViewNote">
-      	<h2>View Note</h2>
-      	<h5>{this.state.noteName}</h5><p>{this.props.name}</p>
+      	<h2>ViewNote</h2>
+      	<b>{this.state.noteName}</b> {this.props.name}
       	<br/>
-      	<h5>{this.state.noteContent}</h5> {this.props.content}
+      	<b>{this.state.noteContent}</b> {this.props.content}
       </div>
     );
   }

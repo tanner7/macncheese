@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Note from './Note';
 import Clock from './Clock';
+import PropsState from './PropsState';
 import ViewNote from './ViewNote';
 import AddNote from './AddNote';
 import './Note.css';
@@ -9,6 +10,7 @@ class NoteList extends Component {
 	constructor(props) {
   	super(props);
 
+    // NoteList keeps track of all the notes here to edit, delete, create
     this.state = {notes: [
                          {noteName: 'Bud', noteContent: 'Light'},
                          {noteName: 'Leinenkugels', noteContent: 'Red'},
@@ -17,11 +19,13 @@ class NoteList extends Component {
                   currentNote: [{noteName: 'Bud', noteContent: 'Light'}]
                 };
 
-  	this.addNote = this.addNote.bind(this);
+
+    // callback function so addNote.js can use NoteLists.js addNoteList() function to pass it data            
+  	this.addNoteList = this.addNoteList.bind(this);
 
     this.currentNoteList = this.currentNoteList.bind(this);
 
-  	this.removeNoteList = this.removeNoteList.bind(this);
+  	this.removeNote = this.removeNote.bind(this);
 }
 
 	renderNotes() {
@@ -31,7 +35,7 @@ class NoteList extends Component {
       		name={notes.noteName}
           content={notes.noteContent}
           currentNoteNote={this.currentNoteList}
-      	  removeNote={this.removeNoteList}
+      	  removeNote={this.removeNote}
     />
   ));
   }
@@ -46,7 +50,7 @@ class NoteList extends Component {
       ));
   }
 
-	addNote(newNote) {
+	addNoteList(newNote) {
   		this.setState({ notes: [...this.state.notes, newNote ] });
   }
 
@@ -58,7 +62,7 @@ class NoteList extends Component {
 
   }
 
-	removeNoteList(removeName) {
+	removeNote(removeName) {
   		const filteredNotes = this.state.notes.filter(notes => {
     	return notes.noteName !== removeName;
   	});
@@ -69,16 +73,21 @@ class NoteList extends Component {
     return (
       <div className="NoteList">
         <div className="left">
+          <PropsState name={this.props.name} />
       	 {this.renderNotes()}
         </div>
         <div className="right">
-          <Clock content="Sexy Clock"/>
           {this.showNote()}
-          <AddNote addNote={this.addNote}/>
+          <AddNote addNote={this.addNoteList}/>
         </div>
       </div>
     );
   }
 }
+
+  NoteList.defaultProps = {
+    name: 'NoteList'
+
+  };
 
 export default NoteList;

@@ -7,8 +7,43 @@
 3. renaming all the components etc..
 
 
+//
+PROPS
+
+Props are how components talk to each other
+
+props are similar to function calls where you can pass arguments
+
+- props should not change
+
+to make props optional add defaultProps to a class:
+
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello {this.props.name}</h1>;
+  }
+}
+
+Welcome.defaultProps = {
+  name: "world",
+};
 
 
+//
+STATE
+
+use state when the component needs to keep track between renderings, the component is able to create, update and  use state. 
+
+for example use state when a user inputs data directly to the component
+
+
+- setState:
+setState updates the state and re-renders the component automatically
+
+
+COMPONENT COMMUNICATION
+
+link: http://andrewhfarmer.com/component-communication/
 
 
 

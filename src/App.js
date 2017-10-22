@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import NoteList from './NoteList';
+import Container from './Container';
 
 const App = () => {
   return (
     <div className="App">
-      <NoteList />
+      <Container />
     </div>
   );
 };
