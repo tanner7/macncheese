@@ -78,7 +78,7 @@ class NoteList extends Component {
         </div>
         <div className="right">
           {this.showNote()}
-          <AddNote addNote={this.addNoteList}/>
+          <AddNote addNote={this.addNoteList} />
         </div>
       </div>
     );
@@ -87,7 +87,6 @@ class NoteList extends Component {
 
   NoteList.defaultProps = {
     name: 'NoteList'
-
   };
 
 export default NoteList;

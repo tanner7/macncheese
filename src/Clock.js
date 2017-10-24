@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Hammer from 'hammerjs'
 import './Note.css';
 
 class Clock extends Component {
@@ -11,6 +12,7 @@ class Clock extends Component {
 	}
 
   	componentDidMount() {
+
 	    this.timerID = setInterval(
 	      () => this.tick(),
 	      1000
