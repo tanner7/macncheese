@@ -13,7 +13,7 @@ class Note extends Component {
   	super(props);
 
   	// binds currentNote to this obj so it can refer to it as 'this' in rendor
-  	this.currentNoteNote = this.currentNoteNote.bind(this);
+  	this.currentNote = this.currentNote.bind(this);
 
   	this.removeNote = this.removeNote.bind(this);
 }
@@ -25,7 +25,7 @@ class Note extends Component {
           <PropsState name={this.props.name} />
       		{this.props.name}
       		<br/>
-          <button onClick={this.currentNoteNote}>View</button><button onClick={this.removeNote}>Remove</button>
+          <button onClick={this.currentNote}>View</button><button onClick={this.removeNote}>Remove</button>
     		</div>
   		);
 	}
@@ -34,8 +34,8 @@ class Note extends Component {
 		this.setState({ note: 'Bonjour' });
 	}
 
-  currentNoteNote() {
-    this.props.currentNoteNote(this.props.name);
+  currentNote() {
+    this.props.currentNote(this.props.name);
   }
 
 	removeNote() {

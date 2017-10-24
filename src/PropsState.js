@@ -5,9 +5,6 @@ import './Note.css';
 
 // trying to make a re-usable component that will return component prop name
 class PropsState extends Component {
-	constructor(props) {
-  	super(props);
-  }
 
   render () {
   	return (
