@@ -1,0 +1,1859 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ham",
+				"HammerBox"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"Hammer",
+				"HammerBox"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"addNote",
+				"addNote"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"pos",
+				"pos-a\tposition: absolute;"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"style",
+				"styleMap"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"num",
+				"numClones"
+			],
+			[
+				"testimonial",
+				"testimonial-slick-nav"
+			],
+			[
+				"current",
+				"currentSlide"
+			],
+			[
+				"testim",
+				"testimonials-slick"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"d",
+				"d-ib\tdisplay: inline-block;"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"dropdw",
+				"dropdown-menu"
+			],
+			[
+				"auto",
+				"auto-accident-lawyer"
+			],
+			[
+				"probate",
+				"probate-real-estate-litigation"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"cws",
+				"cws_location_single_address_info"
+			],
+			[
+				"cws_wpseo",
+				"cws_wpseo_get_locations"
+			],
+			[
+				"col-md-",
+				"col-md-4"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"din",
+				"din-300"
+			],
+			[
+				"Goodbye",
+				"GoodbyeWorld"
+			],
+			[
+				"Good",
+				"GoodbyeWorld"
+			],
+			[
+				"h",
+				"HelloWorld"
+			],
+			[
+				"Hello",
+				"HelloWorld"
+			],
+			[
+				"He",
+				"HelloWorld"
+			],
+			[
+				"hage",
+				"hage_ga_tracking_code"
+			],
+			[
+				"zerif",
+				"zerif_ourfocus_title"
+			],
+			[
+				"under",
+				"under-box-shadow"
+			],
+			[
+				"dark",
+				"dark-blue"
+			],
+			[
+				"flat-",
+				"flat-blue"
+			],
+			[
+				"medium",
+				"medium-blue"
+			],
+			[
+				"col",
+				"col-md-12"
+			],
+			[
+				"bg",
+				"bg-light-gray"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"col-md",
+				"col-md-6"
+			],
+			[
+				"main",
+				"main-blue"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "notes/notes",
+			"settings":
+			{
+				"buffer_size": 1094,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/App.js",
+			"settings":
+			{
+				"buffer_size": 258,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/App.css",
+			"settings":
+			{
+				"buffer_size": 220,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Container.js",
+			"settings":
+			{
+				"buffer_size": 384,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/HammerBox.js",
+			"settings":
+			{
+				"buffer_size": 1089,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/NoteList.js",
+			"settings":
+			{
+				"buffer_size": 2402,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/AddNote.js",
+			"settings":
+			{
+				"buffer_size": 1678,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Note.js",
+			"settings":
+			{
+				"buffer_size": 1068,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Note.css",
+			"settings":
+			{
+				"buffer_size": 910,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 477.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"material",
+				"Material Theme: Configuration"
+			],
+			[
+				"package control",
+				"Package Control: Remove Package"
+			],
+			[
+				"colorscheme",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packageres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"preferences",
+				"Preferences: Settings"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package control in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 709.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ducktape/code/react/react-projects/macncheese",
+		"/home/ducktape/code/react/react-projects/macncheese/build",
+		"/home/ducktape/code/react/react-projects/macncheese/firefox-dev_root",
+		"/home/ducktape/code/react/react-projects/macncheese/firefox_root",
+		"/home/ducktape/code/react/react-projects/macncheese/notes",
+		"/home/ducktape/code/react/react-projects/macncheese/src"
+	],
+	"file_history":
+	[
+		"/home/ducktape/code/react/react-projects/macncheese/src/PropsState.js",
+		"/home/ducktape/code/react/react-projects/macncheese/src/ViewNote.js",
+		"/home/ducktape/code/react/react-projects/macncheese/src/Clock.js",
+		"/home/ducktape/.config/sublime-text-3/Packages/Material Theme/Material-Theme.sublime-theme",
+		"/home/ducktape/.config/sublime-text-3/Packages/User/Color Highlighter/themes/Material-Theme-Palenight.tmTheme",
+		"/home/ducktape/.config/sublime-text-3/Packages/Material Theme/Material-Theme-Lighter.sublime-theme",
+		"/home/ducktape/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/ducktape/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/ducktape/.config/sublime-text-3/Packages/Material Theme/Preferences.sublime-settings",
+		"/home/ducktape/code/react/react-projects/macncheese/public/index.html",
+		"/home/ducktape/.cache/mozilla/firefox/7bex3nyu.dev-edition-default/OfflineCache/index.sqlite",
+		"/home/ducktape/code/react/react-tutorials/reactjs/src/HelloWorld.js",
+		"/home/ducktape/code/react/react-tutorials/reactjs/src/AddGreeter.js",
+		"/home/ducktape/code/react/react-tutorials/reactjs/src/HelloWorldList.js",
+		"/home/ducktape/code/react/react-projects/macncheese/src/Note.css",
+		"/home/ducktape/code/react/react-projects/macncheese/src/GoodbyeWorld.js",
+		"/home/ducktape/code/react/react-projects/macncheese/src/App.css",
+		"/home/ducktape/vvv/vagrant-local/www/pacificchallenge/htdocs/wp-content/themes/pc/page-templates/page_front-page.php",
+		"/home/ducktape/vvv/vagrant-local/www/pacificchallenge/htdocs/wp-content/themes/pc/assets/js/pc-instafeed.js",
+		"/home/ducktape/vvv/vagrant-local/www/pacificchallenge/htdocs/wp-content/themes/pc/footer.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/includes/acf.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/includes/cws-custom-functions.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/contact.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/elements/_locations.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/elements/_buttons.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/pages/_contact.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/areas/_sidebar.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/elements/_form.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/base/_helpers.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/js/custom/theme.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/areas/_breadcrumbs.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/base/_main.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/areas/_navbar.scss",
+		"/home/ducktape/code/react/react-hammer/package.json",
+		"/home/ducktape/code/react/react-hammer/src/main.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/includes/cws-shortcodes.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/front-page.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/single-wpseo_locations.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/base/_mixins.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/practice-area.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/about-us.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/legal-services.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/js/vendors/bootstrap-datetimepicker.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/gulpfile.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/_variables.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/header.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/home.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/app.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/vendors/_bootstrap-datetimepicker.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/compiled/js/app.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/js/vendors/moment.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/package.json",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/node_modules/moment/moment.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/vendors/bootstrap-datepicker3.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/node_modules/bootstrap-datepicker/js/bootstrap-datepicker.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/node_modules/bootstrap-datepicker/less/datepicker3.less",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/js/vendors/bootstrap-datepicker.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/vendors/bootstrap-datepicker3.min.css",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/js/vendors/bootstrap-datepicker.min.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/functions.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/node_modules/jquery/dist/jquery.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/node_modules/jquery/src/jquery.js",
+		"/usr/share/themes/Paper/gtk-3.18/_common.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/includes/front-page-hooks.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/areas/_banner.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/single-cw_video.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/single.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/page.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/partials/banner.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/partials/banner-interior.php",
+		"/home/ducktape/Desktop/blackwell/wp-content/themes/cws-theme-work/practice-area.php",
+		"/home/ducktape/Desktop/blackwell/wp-content/themes/cws-theme-work/includes/acf.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/footer.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/areas/_footer.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/pages/_practice-areas.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/pages/_front-page.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/areas/_header.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/mapstyle.json",
+		"/home/ducktape/Downloads/snazzy-maps-example-ultra-light-with-labels-style.html",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/elements/_testimonials.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/partials/testimonials-section.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/partials/awards.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/areas/_awards.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/areas/_sections.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/vendors/slick/_slick.scss",
+		"/home/ducktape/Desktop/blackwell/wp-content/themes/cws-theme-work/assets/compiled/js/vendor.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/js/jquery.matchHeight.min.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/base/_global.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/partials/contact-form.php",
+		"/home/ducktape/.config/sublime-text-3/Packages/SublimeGit/Default.sublime-keymap",
+		"/home/ducktape/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+		"/home/ducktape/.config/sublime-text-3/Packages/User/SublimeMagick.sublime-settings",
+		"/home/ducktape/.config/sublime-text-3/Packages/SublimeMagick/SublimeMagick.sublime-settings",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/pages/_page.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/elements/_typography.scss",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/js/slick.min.js",
+		"/home/ducktape/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/home/ducktape/Desktop/blackwell/wp-content/themes/cws-theme-work/sidebars/location-sidebar.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/js/theme.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/sass/theme/elements/_icons.scss",
+		"/home/ducktape/Desktop/blackwell/wp-content/themes/cws-theme-work/includes/cws-custom-functions.php",
+		"/home/ducktape/Desktop/blackwell/wp-content/themes/cws-theme-work/includes/sidebar-hooks.php",
+		"/home/ducktape/Desktop/blackwell/wp-content/themes/cws-theme-work/sidebars/contact-sidebar.php",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/assets/js/._jquery.matchHeight.min.js",
+		"/home/ducktape/Desktop/blackwell/wp-content/themes/cws-theme-work/assets/js/custom/theme.js",
+		"/home/ducktape/Desktop/blackwell/wp-content/themes/cws-theme-work/front-page.php",
+		"/home/ducktape/code/react-tutorials/codeacademy/2-react-router/src/client.min.js",
+		"/home/ducktape/code/react-tutorials/codeacademy/2-react-router/package.json",
+		"/home/ducktape/code/react-tutorials/codeacademy/2-react-router/webpack.config.js",
+		"/home/ducktape/code/react-tutorials/basic-no-cra/package.json",
+		"/home/ducktape/code/react-tutorials/basic-no-cra/webpack.config.js",
+		"/home/ducktape/vvv/vagrant-local/www/attorneyreginaward/htdocs/wp-content/themes/cws-theme-work/partials/form.php",
+		"/home/ducktape/vvv/vagrant-local/www/hasumann/htdocs/wp-content/themes/cws-theme-work/header.php",
+		"/home/ducktape/vvv/vagrant-local/www/hasumann/htdocs/wp-content/themes/cws-theme-work/assets/sass/base/_typography.scss",
+		"/home/ducktape/vvv/vagrant-local/www/hasumann/htdocs/wp-content/themes/cws-theme-work/includes/sidebar-hooks.php",
+		"/home/ducktape/vvv/vagrant-local/www/hasumann/htdocs/wp-content/themes/cws-theme-work/assets/sass/vendors/_bootstrap.min.scss",
+		"/home/ducktape/vvv/vagrant-local/www/hasumann/htdocs/wp-content/themes/cws-theme-work/sidebars/practice-sidebar1.php",
+		"/home/ducktape/vvv/vagrant-local/www/hasumann/htdocs/wp-content/themes/cws-theme-work/sidebars/practice-sidebar2.php",
+		"/home/ducktape/vvv/vagrant-local/www/davidblackwell/htdocs/wp-content/themes/cws-theme-work/includes/cws-custom-functions.php",
+		"/home/ducktape/vvv/vagrant-local/www/davidblackwell/htdocs/wp-content/themes/cws-theme-work/includes/cws-shortcodes.php",
+		"/home/ducktape/vvv/vagrant-local/www/davidblackwell/htdocs/wp-content/themes/cws-theme-work/includes/cws-hooks.php",
+		"/home/ducktape/vvv/vagrant-local/www/davidblackwell/htdocs/wp-content/themes/cws-theme-work/includes/cws-filters.php",
+		"/home/ducktape/vvv/vagrant-local/www/blackwell/htdocs/wp-content/themes/cws-theme-work/practice-area.php",
+		"/home/ducktape/vvv/vagrant-local/www/blackwell/htdocs/wp-content/themes/cws-theme-work/assets/sass/elements/_form.scss",
+		"/home/ducktape/vvv/vagrant-local/www/blackwell/htdocs/wp-content/themes/cws-theme-work/assets/sass/base/_variables.scss",
+		"/home/ducktape/vvv/vagrant-local/www/blackwell/htdocs/wp-content/themes/cws-theme-work/includes/front-page-hooks.php",
+		"/home/ducktape/vvv/vagrant-local/www/blackwell/htdocs/wp-content/themes/cws-theme-work/assets/sass/base/_typography.scss"
+	],
+	"find":
+	{
+		"height": 94.0
+	},
+	"find_in_files":
+	{
+		"height": 212.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/ducktape/code/react/react-projects/macncheese"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "notes/notes",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								399,
+								399
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								197,
+								197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/App.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+							"gutter_color_133":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										133,
+										147
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_148":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										148,
+										173
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_39":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										42,
+										42
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_42":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										42,
+										42
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_64":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										42,
+										42
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_67":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										42,
+										42
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_68":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										42,
+										42
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/Container.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								384,
+								384
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/HammerBox.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1063,
+								1063
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/NoteList.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								896,
+								951
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1512.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/AddNote.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								792,
+								792
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/Note.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								692,
+								692
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/Note.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 910,
+						"regions":
+						{
+							"gutter_color_109":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										109,
+										135
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_111":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										109,
+										135
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_126":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										181,
+										195
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_143":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f5f5f5.png",
+								"regions":
+								[
+									[
+										158,
+										180
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_158":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f5f5f5.png",
+								"regions":
+								[
+									[
+										158,
+										180
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_160":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#f5f5f5.png",
+								"regions":
+								[
+									[
+										158,
+										180
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_166":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										181,
+										195
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_181":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										181,
+										195
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_183":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#333.png",
+								"regions":
+								[
+									[
+										181,
+										195
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_200":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00D8FF.png",
+								"regions":
+								[
+									[
+										255,
+										283
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_255":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00D8FF.png",
+								"regions":
+								[
+									[
+										255,
+										283
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_257":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00D8FF.png",
+								"regions":
+								[
+									[
+										255,
+										283
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_269":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDEEFF.png",
+								"regions":
+								[
+									[
+										284,
+										306
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_284":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDEEFF.png",
+								"regions":
+								[
+									[
+										284,
+										306
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_286":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDEEFF.png",
+								"regions":
+								[
+									[
+										284,
+										306
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_420":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										475,
+										497
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_431":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00FFD8.png",
+								"regions":
+								[
+									[
+										446,
+										474
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_446":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00FFD8.png",
+								"regions":
+								[
+									[
+										446,
+										474
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_448":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00FFD8.png",
+								"regions":
+								[
+									[
+										446,
+										474
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_460":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										475,
+										497
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_475":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										475,
+										497
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_477":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										475,
+										497
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_54":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										109,
+										135
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_567":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00FFD8.png",
+								"regions":
+								[
+									[
+										604,
+										632
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_596":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										633,
+										655
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_604":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00FFD8.png",
+								"regions":
+								[
+									[
+										604,
+										632
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_606":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00FFD8.png",
+								"regions":
+								[
+									[
+										604,
+										632
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_608":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00FFD8.png",
+								"regions":
+								[
+									[
+										604,
+										632
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_624":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00FFD8.png",
+								"regions":
+								[
+									[
+										604,
+										632
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_633":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										633,
+										655
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_635":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										633,
+										655
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_636":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										633,
+										655
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_637":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										633,
+										655
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_653":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										633,
+										655
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_689":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00FFD8.png",
+								"regions":
+								[
+									[
+										726,
+										754
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_718":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										755,
+										777
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_726":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00FFD8.png",
+								"regions":
+								[
+									[
+										726,
+										754
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_728":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00FFD8.png",
+								"regions":
+								[
+									[
+										726,
+										754
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_730":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00FFD8.png",
+								"regions":
+								[
+									[
+										726,
+										754
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_746":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00FFD8.png",
+								"regions":
+								[
+									[
+										726,
+										754
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_755":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										755,
+										777
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_757":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										755,
+										777
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_758":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										755,
+										777
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_759":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										755,
+										777
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_775":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#DDFFEE.png",
+								"regions":
+								[
+									[
+										755,
+										777
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_868":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										868,
+										882
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_883":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										883,
+										908
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_94":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										109,
+										135
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								677,
+								677
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 864.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 88.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 67.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"side",
+				"includes/sidebar-hooks.php"
+			],
+			[
+				"acf",
+				"includes/acf.php"
+			],
+			[
+				"_side",
+				"assets/sass/theme/areas/_sidebar.scss"
+			],
+			[
+				"_button",
+				"assets/sass/theme/elements/_buttons.scss"
+			],
+			[
+				"cws",
+				"includes/cws-custom-functions.php"
+			],
+			[
+				"wpseo",
+				"single-wpseo_locations.php"
+			],
+			[
+				"_form",
+				"assets/sass/theme/elements/_form.scss"
+			],
+			[
+				"_help",
+				"assets/sass/base/_helpers.scss"
+			],
+			[
+				"about",
+				"about-us.php"
+			],
+			[
+				"_contact",
+				"assets/sass/theme/pages/_contact.scss"
+			],
+			[
+				"contact",
+				"contact.php"
+			],
+			[
+				"theme",
+				"assets/js/custom/theme.js"
+			],
+			[
+				"_bread",
+				"assets/sass/theme/areas/_breadcrumbs.scss"
+			],
+			[
+				"_nav",
+				"assets/sass/theme/areas/_navbar.scss"
+			],
+			[
+				"front",
+				"front-page.php"
+			],
+			[
+				"fron",
+				"includes/front-page-hooks.php"
+			],
+			[
+				"shortcode",
+				"includes/cws-shortcodes.php"
+			],
+			[
+				"wps",
+				"single-wpseo_locations.php"
+			],
+			[
+				"short",
+				"includes/cws-shortcodes.php"
+			],
+			[
+				"home",
+				"home.php"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"_varia",
+				"assets/sass/theme/_variables.scss"
+			],
+			[
+				"_mixin",
+				"assets/sass/base/_mixins.scss"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"moment",
+				"node_modules/moment/moment.js"
+			],
+			[
+				".json",
+				"package.json"
+			],
+			[
+				"bootstrap",
+				"node_modules/bootstrap-datepicker/js/bootstrap-datepicker.js"
+			],
+			[
+				"bootstrap-d",
+				"node_modules/bootstrap-datepicker/js/bootstrap-datepicker.js"
+			],
+			[
+				"datepicker",
+				"node_modules/bootstrap-datepicker/less/datepicker3.less"
+			],
+			[
+				"jquery",
+				"node_modules/jquery/dist/jquery.js"
+			],
+			[
+				"/js/jquery",
+				"node_modules/jquery/src/jquery.js"
+			],
+			[
+				"gulpf",
+				"gulpfile.js"
+			],
+			[
+				"function",
+				"functions.php"
+			],
+			[
+				"glpfil",
+				"gulpfile.js"
+			],
+			[
+				"theme.js",
+				"assets/js/custom/theme.js"
+			],
+			[
+				"variables",
+				"assets/sass/theme/_variables.scss"
+			],
+			[
+				"_helper",
+				"assets/sass/base/_helpers.scss"
+			],
+			[
+				"baner",
+				"partials/banner-interior.php"
+			],
+			[
+				"banner",
+				"partials/banner.php"
+			],
+			[
+				"cws-",
+				"includes/cws-shortcodes.php"
+			],
+			[
+				"practice",
+				"practice-area.php"
+			],
+			[
+				"_butto",
+				"assets/sass/theme/elements/_buttons.scss"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"_footer",
+				"assets/sass/theme/areas/_footer.scss"
+			],
+			[
+				"_navb",
+				"assets/sass/theme/areas/_navbar.scss"
+			],
+			[
+				"_front",
+				"assets/sass/theme/pages/_front-page.scss"
+			],
+			[
+				"interior",
+				"partials/banner-interior.php"
+			],
+			[
+				"_practice",
+				"assets/sass/theme/pages/_practice-areas.scss"
+			],
+			[
+				"_header",
+				"assets/sass/theme/areas/_header.scss"
+			],
+			[
+				"header",
+				"header.php"
+			],
+			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"_banner",
+				"assets/sass/theme/areas/_banner.scss"
+			],
+			[
+				"testimo",
+				"partials/testimonials-section.php"
+			],
+			[
+				"_awa",
+				"assets/sass/theme/areas/_awards.scss"
+			],
+			[
+				"_section",
+				"assets/sass/theme/areas/_sections.scss"
+			],
+			[
+				"_mix",
+				"assets/sass/base/_mixins.scss"
+			],
+			[
+				"_slick",
+				"assets/sass/vendors/slick/_slick.scss"
+			],
+			[
+				"matchhe",
+				"assets/js/jquery.matchHeight.min.js"
+			],
+			[
+				"navbar",
+				"assets/sass/theme/areas/_navbar.scss"
+			],
+			[
+				"cwscust",
+				"includes/cws-custom-functions.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 544.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
