@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"Tap",
+				"TapBox"
+			],
+			[
+				"compo",
+				"componentWillUnmount"
+			],
+			[
+				"screen",
+				"screenWidth"
+			],
+			[
 				"ham",
 				"HammerBox"
 			],
@@ -229,7 +241,7 @@
 			"file": "src/App.css",
 			"settings":
 			{
-				"buffer_size": 220,
+				"buffer_size": 2,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -246,7 +258,26 @@
 			"file": "src/HammerBox.js",
 			"settings":
 			{
-				"buffer_size": 1089,
+				"buffer_size": 2183,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/TapBox.js",
+			"settings":
+			{
+				"buffer_size": 2495,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "no"
+			}
+		},
+		{
+			"file": "src/tinderable.js",
+			"settings":
+			{
+				"buffer_size": 7791,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -268,18 +299,10 @@
 			}
 		},
 		{
-			"file": "src/Note.js",
-			"settings":
-			{
-				"buffer_size": 1068,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/Note.css",
 			"settings":
 			{
-				"buffer_size": 910,
+				"buffer_size": 1056,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -301,6 +324,10 @@
 				"Package Control: List Packages"
 			],
 			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
 				"material",
 				"Material Theme: Configuration"
 			],
@@ -311,10 +338,6 @@
 			[
 				"colorscheme",
 				"Color Scheme Editor: Edit current color scheme"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"packageres",
@@ -353,7 +376,7 @@
 				"Install Package Control"
 			]
 		],
-		"width": 709.0
+		"width": 781.0
 	},
 	"console":
 	{
@@ -382,9 +405,10 @@
 	],
 	"file_history":
 	[
+		"/home/ducktape/code/react/react-projects/macncheese/src/Clock.js",
+		"/home/ducktape/code/react/react-projects/macncheese/src/Note.js",
 		"/home/ducktape/code/react/react-projects/macncheese/src/PropsState.js",
 		"/home/ducktape/code/react/react-projects/macncheese/src/ViewNote.js",
-		"/home/ducktape/code/react/react-projects/macncheese/src/Clock.js",
 		"/home/ducktape/.config/sublime-text-3/Packages/Material Theme/Material-Theme.sublime-theme",
 		"/home/ducktape/.config/sublime-text-3/Packages/User/Color Highlighter/themes/Material-Theme-Palenight.tmTheme",
 		"/home/ducktape/.config/sublime-text-3/Packages/Material Theme/Material-Theme-Lighter.sublime-theme",
@@ -508,8 +532,7 @@
 		"/home/ducktape/vvv/vagrant-local/www/blackwell/htdocs/wp-content/themes/cws-theme-work/practice-area.php",
 		"/home/ducktape/vvv/vagrant-local/www/blackwell/htdocs/wp-content/themes/cws-theme-work/assets/sass/elements/_form.scss",
 		"/home/ducktape/vvv/vagrant-local/www/blackwell/htdocs/wp-content/themes/cws-theme-work/assets/sass/base/_variables.scss",
-		"/home/ducktape/vvv/vagrant-local/www/blackwell/htdocs/wp-content/themes/cws-theme-work/includes/front-page-hooks.php",
-		"/home/ducktape/vvv/vagrant-local/www/blackwell/htdocs/wp-content/themes/cws-theme-work/assets/sass/base/_typography.scss"
+		"/home/ducktape/vvv/vagrant-local/www/blackwell/htdocs/wp-content/themes/cws-theme-work/includes/front-page-hooks.php"
 	],
 	"find":
 	{
@@ -550,7 +573,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -578,7 +601,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -606,7 +629,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -615,7 +638,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 220,
+						"buffer_size": 2,
 						"regions":
 						{
 							"gutter_color_133":
@@ -625,8 +648,8 @@
 								"regions":
 								[
 									[
-										133,
-										147
+										2,
+										2
 									]
 								],
 								"scope": "gutter_color"
@@ -638,8 +661,8 @@
 								"regions":
 								[
 									[
-										148,
-										173
+										2,
+										2
 									]
 								],
 								"scope": "gutter_color"
@@ -651,8 +674,8 @@
 								"regions":
 								[
 									[
-										42,
-										42
+										0,
+										0
 									]
 								],
 								"scope": "gutter_color"
@@ -664,8 +687,8 @@
 								"regions":
 								[
 									[
-										42,
-										42
+										0,
+										0
 									]
 								],
 								"scope": "gutter_color"
@@ -677,8 +700,8 @@
 								"regions":
 								[
 									[
-										42,
-										42
+										0,
+										0
 									]
 								],
 								"scope": "gutter_color"
@@ -690,8 +713,8 @@
 								"regions":
 								[
 									[
-										42,
-										42
+										0,
+										0
 									]
 								],
 								"scope": "gutter_color"
@@ -703,8 +726,8 @@
 								"regions":
 								[
 									[
-										42,
-										42
+										0,
+										0
 									]
 								],
 								"scope": "gutter_color"
@@ -713,13 +736,15 @@
 						"selection":
 						[
 							[
-								217,
-								217
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -741,8 +766,8 @@
 						"selection":
 						[
 							[
-								384,
-								384
+								126,
+								106
 							]
 						],
 						"settings":
@@ -764,15 +789,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1089,
+						"buffer_size": 2183,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1063,
-								1063
+								1888,
+								1888
 							]
 						],
 						"settings":
@@ -781,14 +806,73 @@
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 288.0,
+						"translation.y": 1296.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/TapBox.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1450,
+								1450
+							]
+						],
+						"settings":
+						{
+							"auto_name": "no",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
+					"file": "src/tinderable.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3410,
+								3410
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2880.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "src/NoteList.js",
 					"semi_transient": false,
 					"settings":
@@ -811,14 +895,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1512.0,
+						"translation.y": 1178.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "src/AddNote.js",
 					"semi_transient": false,
 					"settings":
@@ -841,49 +925,19 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 72.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "src/Note.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1068,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								692,
-								692
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "src/Note.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 910,
+						"buffer_size": 1056,
 						"regions":
 						{
 							"gutter_color_109":
@@ -1471,6 +1525,32 @@
 								],
 								"scope": "gutter_color"
 							},
+							"gutter_color_849":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										849,
+										863
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_864":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										864,
+										889
+									]
+								],
+								"scope": "gutter_color"
+							},
 							"gutter_color_868":
 							{
 								"flags": 144,
@@ -1478,8 +1558,21 @@
 								"regions":
 								[
 									[
-										868,
-										882
+										849,
+										863
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_871":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										849,
+										863
 									]
 								],
 								"scope": "gutter_color"
@@ -1491,8 +1584,21 @@
 								"regions":
 								[
 									[
-										883,
-										908
+										864,
+										889
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_886":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										864,
+										889
 									]
 								],
 								"scope": "gutter_color"
@@ -1509,13 +1615,39 @@
 									]
 								],
 								"scope": "gutter_color"
+							},
+							"gutter_color_979":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										995,
+										1023
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_995":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#808080.png",
+								"regions":
+								[
+									[
+										995,
+										1023
+									]
+								],
+								"scope": "gutter_color"
 							}
 						},
 						"selection":
 						[
 							[
-								677,
-								677
+								907,
+								907
 							]
 						],
 						"settings":
@@ -1525,10 +1657,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 864.0,
+						"translation.y": 1368.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1582,6 +1714,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"clock",
+				"src/Clock.js"
+			],
 			[
 				"side",
 				"includes/sidebar-hooks.php"
@@ -1851,7 +1987,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 544.0,
+	"side_bar_width": 294.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

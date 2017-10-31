@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Hammer from 'hammerjs'
 import './Note.css';
 
 class Clock extends Component {
