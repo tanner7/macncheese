@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Mousetrap from 'mousetrap';
-import './Note.css';
+import './App.css';
 
 class AddNote extends Component {
   constructor(props) {
@@ -68,5 +68,9 @@ class AddNote extends Component {
   );
   }
 }
+
+  AddNote.defaultProps = {
+    addNote: {this.addNoteList}
+  };
 
 export default AddNote;

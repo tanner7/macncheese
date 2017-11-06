@@ -16,30 +16,28 @@ class Note extends Component {
   	this.currentNote = this.currentNote.bind(this);
 
   	this.removeNote = this.removeNote.bind(this);
-}
+  }
 
-	// any class component in React needs a rendor function to return JSX
-	render() {
-  		return (
-    		<div className="Note">
-          <PropsState name={this.props.name} />
-      		{this.props.name}
-      		<br/>
-          <button onClick={this.currentNote}>View</button><button onClick={this.removeNote}>Remove</button>
-    		</div>
-  		);
-	}
-
-	editNote() {
-		this.setState({ note: 'Bonjour' });
-	}
+  editNote() {
+    this.setState({ note: 'Bonjour' });
+  }
 
   currentNote() {
     this.props.currentNote(this.props.name);
   }
 
-	removeNote() {
-  	this.props.removeNote(this.props.name);
+  removeNote() {
+    this.props.removeNote(this.props.name);
+  }
+
+	// any class component in React needs a render function to return JSX
+	render() {
+  		return (
+    		<div className="Note" onClick={this.currentNote} >
+          <PropsState name={this.props.name} />
+          <button onClick={this.removeNote}>Remove</button>
+    		</div>
+  		);
 	}
 
 }

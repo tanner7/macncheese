@@ -3,7 +3,7 @@ import Note from './Note';
 import PropsState from './PropsState';
 import ViewNote from './ViewNote';
 import AddNote from './AddNote';
-import './Note.css';
+import './App.css';
 
 class NoteList extends Component {
 	constructor(props) {
@@ -73,16 +73,18 @@ class NoteList extends Component {
       <div className="NoteList">
         <div className="left">
           <PropsState name={this.props.name} />
-      	 {this.renderNotes()}
+      	  {this.renderNotes()}
+
         </div>
         <div className="right">
           {this.showNote()}
-          <AddNote addNote={this.addNoteList} />
         </div>
       </div>
     );
   }
 }
+
+// <AddNote addNote={this.addNoteList} />
 
   NoteList.defaultProps = {
     name: 'NoteList'

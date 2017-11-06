@@ -9,31 +9,45 @@ export default class TapBox extends React.Component {
     super(props);
 
     this.state = {initialPosition: {y: 0},
-    			  startPosition: {y: ''},
-				  y: ''};
+    			        startPosition: {y: ''},
+				          y: ''};
 
-	//this.handleTap = this.handleTap.bind(this);
+	this.handleTap = this.handleTap.bind(this);
 
 	this.handlePan = this.handlePan.bind(this);
 
   }
 
   calculatePosition(deltaY) {
-    return {
-        y: (this.state.initialPosition.y = deltaY)
-    };
+        let posY = this.state.y;
+
+        if ( posY < 0 ) {
+          y: 0;
+          console.log('< 0 deltaY:' + deltaY);
+        }
+        else if (posY > 400) {
+          y: 400;
+          console.log('> 400 deltaY:' + deltaY);
+        }
+        else {
+          y: (this.state.y = deltaY);
+          console.log('deltaY:' + deltaY);
+      }
+    
   }
 
+
+  /*
   panHandlers(ev) {
   	console.log('called panHandlers');
-	this.setState(this.calculatePosition(
+    this.setState(this.calculatePosition(
 		ev.deltaY
 	));
 	this.setState({initialPosition: {y: ev.deltaY}});
 	console.log(ev.deltaY);  	
   }
 
-  /*
+  
 
   panHandlers = {
 
@@ -55,12 +69,31 @@ export default class TapBox extends React.Component {
 		}
   }
 
-	*/
+	
 
   handlePan(ev) {
     console.log('handlePan fire');
     this.panHandlers.call(this, ev);
     return false;  	
+  }
+  */
+
+  panMove(ev) {
+      console.log('panmove fire');
+      this.setState(this.calculatePosition(
+        ev.deltaY
+      ));
+      this.setState({initialPosition: {y: ev.deltaY}});
+      console.log(ev.deltaY);
+  }
+
+
+  handlePan(ev) {
+    this.panMove.call(this, ev);
+  }
+
+  handleTap() {
+    console.log('tap');
   }
 
   componentWillMount() {
@@ -71,11 +104,16 @@ export default class TapBox extends React.Component {
 	this.hammertap = Hammer(ReactDOM.findDOMNode(this));
 	this.hammertap.add(new Hammer.Pan({direction: Hammer.DIRECTION_VERTICAL, threshold: 0}));
 
-	console.log('hammer init');
+  this.hammertap.on('singletap', this.handleTap);
 
+  this.hammertap.on('panmove', this.handlePan);
+
+  }
+
+  /*
     var events = [
     		['panstart panmove', this.handlePan],
-    		['panstart panmove', this.handlePan]
+    		['panstart panmove', this.handleTap]
     ];
 
     events.forEach(function(data) {
@@ -85,24 +123,9 @@ export default class TapBox extends React.Component {
     	}
     }, this);
 
-    //this.hammertap.on('panmove', this.handlePan);
-
-    /*
-
-    this.hammertap.on(events);
-
-    console.log(events);
-
-    events.forEach(function(data) {
-        if ( data ) {
-            this.hammertap.on(data);
-            console.log('data:' + data);
-        }
-    }, this);
-
-	*/
-
   }
+  */
+
 
   componentWillUnmount() {
 	this.hammertap.stop();
@@ -111,11 +134,7 @@ export default class TapBox extends React.Component {
   }
 
   render() {
-    var translate = ''.concat(
-        'translate3d(',
-        '0px,',
-        this.state.y + 'px,',
-        '0px)'
+    var translate = ''.concat('translate3d(', '0px,', this.state.y + 'px,', '0px)'
     );
 
     var style = {
@@ -126,7 +145,13 @@ export default class TapBox extends React.Component {
 
     return (
       <div className="TapBox" style={style} >
-      	Pan Me {this.state.initialPosition.y}
+      	<input
+          placeholder="Tap Me"
+          type="text"
+          onChange={this.handleNameUpdate}
+          value={this.state.tapName}
+        />
+        {this.state.y}
       </div>
     );
   }

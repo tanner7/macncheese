@@ -8,10 +8,7 @@ class Container extends Component {
   render() {
     return (
       <div className="Container">
-      	<div className="top-bar">
-      		<Clock content="Sexy Clock"/>
-      	</div>
-      	<NoteList />	
+      	<NoteList name="Note List" />	
       </div>
     );
   }

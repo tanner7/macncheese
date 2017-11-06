@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Note.css';
 
-
 // view note simply displays a note that NoteList gave it as a prop
 class ViewNote extends Component {
 	constructor(props) {
@@ -12,23 +11,6 @@ class ViewNote extends Component {
                   name: 'Name:',
                   description: 'Description:'};
 
-}
-
-  
-
-  render() {
-    return (
-      <div className="ViewNote">
-      	<h2>ViewNote</h2>
-      	<b>{this.state.name}</b> {this.state.noteName}
-      	<br/>
-        <br/>
-      	<b>{this.state.description}</b> {this.state.noteContent}
-        <br/>
-        <br/>
-        <button>Edit</button>
-      </div>
-    );
   }
 
   componentWillMount() {
@@ -37,8 +19,18 @@ class ViewNote extends Component {
     })
   }
 
-
-
+  render() {
+    return (
+      <div className="ViewNote">
+      	<p className="title">View Note</p>
+      	<b>{this.state.name}</b> {this.state.noteName}
+        <br/>
+        <br/>
+      	<b>{this.state.description}</b> {this.state.noteContent}
+        <button>Edit</button>
+      </div>
+    );
+  }
 
 }
 

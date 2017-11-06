@@ -9,8 +9,11 @@
     "react": "^15.5.4",
     "react-addons-test-utils": "^15.5.1",
     "react-dom": "^15.5.4",
+    "react-dropzone": "^4.2.1",
     "react-hammerjs": "^1.0.1",
-    "react-test-renderer": "^15.5.4"
+    "react-router-dom": "^4.2.2",
+    "react-test-renderer": "^15.5.4",
+    "styled-components": "^2.2.3"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"

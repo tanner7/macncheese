@@ -10,19 +10,19 @@ class HammerBox extends Component {
 
 		super(props);
 
-		//this.handleTap = this.handleTap.bind(this);
+		this.imageUpload = this.imageUpload.bind(this);
+
+		this.btnClick = this.btnClick.bind(this);
 
 		this.handleSwipe = this.handleSwipe.bind(this);
 
 		this.updateDimensions = this.updateDimensions.bind(this);
 
-		// var screen = document.getElementById('root');
-
-		// var box = ReactDOM.findDOMNode(this);
-
 		this.state = { initialPosition: { x: 0, y: 0 },
 					   screenWidth: '',
-					   height: 0
+					   height: 0, 
+					   file: '',
+					   imagePreviewUrl: ''
 
 					};
 	}
@@ -36,6 +36,41 @@ class HammerBox extends Component {
 		    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
 
 		this.setState({screenWidth: x, screenHeight: y});
+    }
+
+    imageSubmit(ev) {
+    	ev.preventDefault();
+    	console.log('hanlde uploading-', this.state.file);
+    }
+
+    btnClick(ev) {
+    	// fires the onChange for <input>
+    	document.getElementById('fileInput').click();
+
+    }
+
+    imageUpload(ev) {
+
+    	ev.preventDefault();
+
+    	let reader = new FileReader();
+		let file = ev.target.files[0];    	
+
+	    reader.onload = () => {
+	      this.setState({
+	        file: file,
+	        imagePreviewUrl: reader.result
+	      });
+	    };
+
+	    console.log(ev);
+	    console.log(file);
+	    console.log(reader);
+
+	    reader.readAsDataURL(file)
+
+	    //console.log(reader.readAsDataURL(file));
+
     }
 
     componentWillMount() {
@@ -64,21 +99,53 @@ class HammerBox extends Component {
 		console.log('swipe');
 	}
 
+
 	render() {
+
+	    let imagePreview = this.state.imagePreviewUrl;
+
+		var background = ''.concat('url(', imagePreview, ')', 'no-repeat');
+
+		var style = {
+			background: background
+		};
+
     	return (
     	<div className="HammerBox-Container">
 
-	      	<div className="HammerBox" ref={ (compElement) => this.compElement = compElement}>
+	      	<div className="HammerBox" style={style} ref={ (compElement) => this.compElement = compElement}>
 	      		<TapBox />
+	      		<button onClick={this.btnClick} >+</button>
+	      		<input type="file" id="fileInput" onChange={(ev)=>this.imageUpload(ev)} />
 	      	</div>
+	      	<p>HammerBox Height: {this.state.height}</p>
 	      	<p>screenWidth: {this.state.screenWidth}</p>
 	      	<p>screenHeight: {this.state.screenHeight}</p>	
-	      	<p>HammerBox Height: {this.state.height}</p>      	
+	      	      	
 	    </div>
     	);
   	}
 
 }
 	// <Hammer onTap={this.handleTap} onSwipe={this.handleSwipe}><div>Tap Me</div></Hammer>
+
+	/*
+
+	  onDrop(files) {
+  	console.log('on drop');
+    this.setState({
+      files
+    });
+  }
+
+		let dropzoneRef;
+
+  		<Dropzone className="drop" onDrop={this.onDrop} ref={(node) => { dropzoneRef = node; }}>
+		  <button type="button"  onClick={() => { dropzoneRef.open() }}>
+		      +
+		  </button>
+  		</Dropzone>
+
+	*/
 
 export default HammerBox;
