@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 	// a './' refers to local files not a library
 import PropsState from './PropsState';
-import './Note.css';
+import '../style/Note.css';
 
 
 class Note extends Component {
@@ -35,7 +35,7 @@ class Note extends Component {
   		return (
     		<div className="Note" onClick={this.currentNote} >
           <PropsState name={this.props.name} />
-          <button onClick={this.removeNote}>Remove</button>
+          <button onClick={this.removeNote}>X</button>
     		</div>
   		);
 	}

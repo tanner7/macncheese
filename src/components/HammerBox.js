@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Hammer from 'hammerjs';
 import ReactDOM from 'react-dom';
 import TapBox from './TapBox';
-import './Note.css';
+import '../style/Note.css';
 
 class HammerBox extends Component {
 

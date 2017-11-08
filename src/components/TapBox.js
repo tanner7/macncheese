@@ -1,7 +1,7 @@
 import React from 'react';
 import Hammer from 'hammerjs';
 import ReactDOM from 'react-dom';
-import './Note.css';
+import '../style/Note.css';
 
 export default class TapBox extends React.Component {
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import TextEditor from './TextEditor';
 import Mousetrap from 'mousetrap';
-import './App.css';
+import '../style/App.css';
 
 class AddNote extends Component {
   constructor(props) {
@@ -13,15 +14,15 @@ class AddNote extends Component {
     this.handleContentUpdate = this.handleContentUpdate.bind(this);
     this.addNote = this.addNote.bind(this);
   }
+
   // will update our list
   handleNameUpdate(event) {
     event.preventDefault();
     this.setState({ noteName: event.target.value });
   }
 
-  handleContentUpdate(event) {
-    event.preventDefault();
-    this.setState({ noteContent: event.target.value });
+  handleContentUpdate(value) {
+    this.setState({ noteContent: value });
   }
 
   // adds name and content
@@ -45,6 +46,8 @@ class AddNote extends Component {
   return (
     <div className="AddNote">
       <form onSubmit={this.addNote}>
+        <button className="AddNoteBtn" type="submit">Add</button>
+        <br/>
         <input
           placeholder="Name"
           type="text"
@@ -52,7 +55,16 @@ class AddNote extends Component {
           value={this.state.noteName}
         />
         <br/>
-        <br/>
+        <br/>        
+      </form>
+      <TextEditor noteContent={this.handleContentUpdate} />
+    </div>
+  );
+  }
+}
+
+/*
+
         <input
           classname="content"
           type="textarea"
@@ -60,17 +72,11 @@ class AddNote extends Component {
           onChange={this.handleContentUpdate}
           value={this.state.noteContent}
         />
-        <br/>
-        <br/>
-        <button type="submit">Add</button>
-      </form>
-    </div>
-  );
-  }
-}
 
-  AddNote.defaultProps = {
+*/
+
+/*  AddNote.defaultProps = {
     addNote: {this.addNoteList}
-  };
+  };*/
 
 export default AddNote;

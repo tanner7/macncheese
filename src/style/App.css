@@ -28,44 +28,63 @@ nav ul li a {
 	color: #000;		
 }
 
-.top-bar {
-  margin-bottom: 30px;
-  padding: 30px;
+.top {
+  text-align: left;
+}
+
+.top button {
+  margin: 10px;
+  padding: 11px;
+  background-color: #fff;
+  border: 1px solid #000;
 }
 
 .left {
   margin: 1px;
-  border: 2px solid #00D8FF;
   background: #DDEEFF;
   width: 35%;
   display: inline-block;
   float: left;
 }
 
-.right {
-  margin: 1px;
+.right {  
+  margin: 0 5px 0 5px; 
   float: right;
-  width: 64%;
+  width: 62%;
 }
 
-.Clock {
-  margin: 0px;
-  padding: 0px;
-  border: 2px solid #00FFD8;
-  background: #DDFFEE;
+.ViewNote {
+  margin: 0 5px;
+  padding: 5px;
+  text-align: left;
+  width: 80%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.ViewNote .card-title {
   text-align: center;
-  width: 20%;
+}
+
+.ViewNote button {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  margin: 5px 5px 5px 0;  
+  border: 1px solid #000;
+  background-color: #fff;
+  margin-right: 2px;
+  display: inline-block;
 }
 
 .AddNote {
-  margin: 0;
-  padding: 0;
-  border: 2px solid #00FFD8;
-  background: #DDFFEE;
+  margin: 0 5px;
+  padding: 5px;
   text-align: left;
+  width: 80%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.AddNote button {
+.AddNoteBtn {
 	text-align: center;
   font-size: 14px;
   padding: 10px;
@@ -76,11 +95,11 @@ nav ul li a {
   display: inline-block;
 }
 
-.ViewNote {
-  margin: 0;
-  padding: 0;
-  text-align: left;
+.AddNote input {
+  width: 80%;
+  margin: 0 auto;
 }
+
 
 p.title  {
 	text-align: center;
@@ -89,6 +108,8 @@ p.title  {
 	background-color: #DDEEFF;
 	color: #000;
 	border-top: 2px solid #00D8FF;
+  width: 100%;
+  border-bottom: 2px solid #00D8FF;
 }
 
 .HammerBox {
@@ -129,6 +150,15 @@ p.title  {
   background-color: #808080;
   border: none;
   color: #fff;
+}
+
+.Clock {
+  margin: 0px;
+  padding: 0px;
+  border: 2px solid #00FFD8;
+  background: #DDFFEE;
+  text-align: center;
+  width: 20%;
 }
 
 

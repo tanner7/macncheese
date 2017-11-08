@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
-import Container from './Container';
-import AddNote from './AddNote';
-import HammerBox from './HammerBox';
-import Clock from './Clock';
+import './style/App.css';
+import Container from './containers/Container';
+import AddNote from './components/AddNote';
+import HammerBox from './components/HammerBox';
+import Clock from './components/Clock';
 
 // used for routing
 import { Link } from 'react-router-dom';
@@ -31,7 +31,6 @@ function Navbar() {
       <nav>
         <ul>
           <li><Link to='/'>NoteList</Link></li>
-          <li><Link to='/addnote'>Add Note</Link></li>
           <li><Link to='/hammerbox'>HammerBox</Link></li>
           <li><Link to='/clock'>Clock</Link></li>
         </ul>
@@ -46,7 +45,6 @@ const Main = () => (
   <main>
     <Switch>
       <Route exact path='/' component={Container}/>
-      <Route path='/addnote' component={AddNote}/>
       <Route path='/hammerbox' component={HammerBox}/>
       <Route path='/clock' component={Clock}/>
     </Switch>

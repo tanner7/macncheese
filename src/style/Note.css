@@ -1,0 +1,27 @@
+.Note {
+  border-bottom: 1px solid #00D8FF;
+  border-left: 1px solid #00D8FF;
+  border-right: 2px solid #00D8FF;
+  text-align: left;
+  background: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 5px;
+  position: relative;
+}
+
+div.PropsState {
+  display: inline-block;
+  width: 100%;
+}
+
+.Note button {
+  font-size: 11px;
+  padding: 3px 6px 3px 6px;
+  border: none;
+  color: #fff;
+  background-color: #d9534f;
+  margin-right: 2px;
+  position: absolute;
+  right: 5px; 
+}
