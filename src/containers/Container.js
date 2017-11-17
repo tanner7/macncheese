@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NoteList from '../components/NoteList';
+import NoteList from '../components/notes/NoteList';
 import Clock from '../components/Clock';
 import '../style/Note.css';
 

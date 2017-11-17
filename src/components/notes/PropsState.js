@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 	// a './' refers to local files not a library
-import '../style/Note.css';
+import '../../style/Note.css';
 
 
 // trying to make a re-usable component that will return component prop name

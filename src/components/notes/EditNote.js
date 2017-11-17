@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import TextEditor from './TextEditor';
 import Mousetrap from 'mousetrap';
-import '../style/App.css';
+import '../../style/App.css';
 
-class AddNote extends Component {
+class EditNote extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {noteName: '',
-                  noteContent: '' };
+    this.state = {noteName: this.props.name,
+                  noteContent: this.props.content };
 
     this.handleNameUpdate = this.handleNameUpdate.bind(this);
     this.handleContentUpdate = this.handleContentUpdate.bind(this);
-    this.addNote = this.addNote.bind(this);
+    this.saveNote = this.saveNote.bind(this);
   }
 
   // will update our list
@@ -26,9 +26,9 @@ class AddNote extends Component {
   }
 
   // adds name and content
-  addNote(event) {
+  saveNote(event) {
     event.preventDefault();
-    this.props.addNote(this.state);
+    this.props.saveNote(this.state);
     this.setState({ noteName: '', 
                     noteContent: '' });
   }
@@ -42,14 +42,20 @@ class AddNote extends Component {
     Mousetrap.unbind('return', this.addNote);
   }
 
+  /*
+  componentWillReceiveProps(name, description) {
+    this.setState({ noteName: name,
+                    noteContent: description })
+  }
+  */
+
   render() {
   return (
-    <div className="AddNote">
-      <form onSubmit={this.addNote}>
-        <button className="AddNoteBtn" type="submit">Add</button>
+    <div className="EditNote">
+      <form onSubmit={this.saveNote}>
+        <button className="SaveNoteBtn" type="submit">Save</button>
         <br/>
         <input
-          placeholder="Name"
           type="text"
           onChange={this.handleNameUpdate}
           value={this.state.noteName}
@@ -57,26 +63,10 @@ class AddNote extends Component {
         <br/>
         <br/>        
       </form>
-      <TextEditor noteContent={this.handleContentUpdate} />
+      <TextEditor value={this.state.noteContent} noteContent={this.handleContentUpdate} />
     </div>
   );
   }
 }
 
-/*
-
-        <input
-          classname="content"
-          type="textarea"
-          placeholder="Content"
-          onChange={this.handleContentUpdate}
-          value={this.state.noteContent}
-        />
-
-*/
-
-/*  AddNote.defaultProps = {
-    addNote: {this.addNoteList}
-  };*/
-
-export default AddNote;
+export default EditNote;

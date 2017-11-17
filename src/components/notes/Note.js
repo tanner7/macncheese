@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 	// a './' refers to local files not a library
 import PropsState from './PropsState';
-import '../style/Note.css';
+import '../../style/Note.css';
 
 
 class Note extends Component {
@@ -33,6 +33,8 @@ class Note extends Component {
 	// any class component in React needs a render function to return JSX
 	render() {
   		return (
+
+        // onCLick sets note props which is passed via currentNote to NoteList[]
     		<div className="Note" onClick={this.currentNote} >
           <PropsState name={this.props.name} />
           <button onClick={this.removeNote}>X</button>

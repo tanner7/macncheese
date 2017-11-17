@@ -1,7 +1,7 @@
 import React from 'react';
 import './style/App.css';
 import Container from './containers/Container';
-import AddNote from './components/AddNote';
+import AddNote from './components/notes/AddNote';
 import HammerBox from './components/HammerBox';
 import Clock from './components/Clock';
 

@@ -3,7 +3,7 @@ import Note from './Note';
 import PropsState from './PropsState';
 import ViewNote from './ViewNote';
 import AddNote from './AddNote';
-import '../style/App.css';
+import '../../style/App.css';
 
 class NoteList extends Component {
 	constructor(props) {
@@ -29,6 +29,8 @@ class NoteList extends Component {
     this.currentNoteList = this.currentNoteList.bind(this);
 
   	this.removeNote = this.removeNote.bind(this);
+
+    this.saveNote = this.saveNote.bind(this);
 }
 
   getInitialState() {
@@ -52,6 +54,10 @@ class NoteList extends Component {
       return notes.noteName !== removeName;
     });
     this.setState({ notes: filteredNotes, currentNote: [{ noteName: '', noteContent: '' }]});
+  }
+
+  saveNote() {
+
   }
 
   // gets the currentNote from Note.js filters the notes list sets CurrentNote state to note that 
@@ -105,8 +111,6 @@ class NoteList extends Component {
     );
   }
 }
-
-// <AddNote addNote={this.addNoteList} />
 
   // example of setting default props
   NoteList.defaultProps = {

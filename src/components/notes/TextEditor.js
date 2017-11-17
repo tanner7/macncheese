@@ -2,19 +2,16 @@ import React, { Component } from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 import Mousetrap from 'mousetrap';
-import '../style/App.css';
+import '../../style/App.css';
 
 class TextEditor extends Component {
-
-
-
 
   constructor(props) {
     super(props);
 
-    this.state = { delta: '',  // You can also pass a Quill Delta here
+    this.state = { delta: this.props.value,  // You can also pass a Quill Delta here
 
-    			   // sending Quill the toolbar modules and formats
+    			// sending Quill the toolbar modules and formats
 				   modules: {
 					    toolbar: [
 					      [{ 'header': [1, 2, false] }],
@@ -32,8 +29,6 @@ class TextEditor extends Component {
 					  ],
 
 	}
-
-  	//this.addContent = this.addContent.bind(this);
 
   	this.handleChange = this.handleChange.bind(this)
 
