@@ -57,7 +57,7 @@ class NoteList extends Component {
   }
 
   saveNote() {
-
+    
   }
 
   // gets the currentNote from Note.js filters the notes list sets CurrentNote state to note that 

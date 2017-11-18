@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AddNote from './EditNote';
+import EditNote from './EditNote';
 import '../../style/Note.css';
 
 // view note simply displays a note that NoteList gave it as a prop
@@ -16,6 +16,11 @@ class ViewNote extends Component {
                 };
 
     this.toggleEditButton = this.toggleEditButton.bind(this);
+
+    this.saveNoteView = this.saveNoteView.bind(this);
+
+    this.noteNameChange = this.noteNameChange.bind(this);
+
   }
 
   componentWillMount() {
@@ -29,10 +34,18 @@ class ViewNote extends Component {
                     hideViewNote: true });
   }
 
+  noteNameChange(noteName) {
+    this.setState({ noteName: noteName });
+  }
+
+  saveNoteView(editNote) {
+    this.setState({ noteName: editNote.noteName });
+  }
+
   showEdit() {
     return (  
         <div className="edit">
-          <AddNote name={this.state.noteName} content={this.state.noteContent}/> 
+          <EditNote saveNote={this.saveNoteView} noteName={this.noteNameChange} name={this.state.noteName} content={this.state.noteContent}/> 
         </div>
     )
   }

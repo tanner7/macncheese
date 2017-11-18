@@ -19,6 +19,7 @@ class EditNote extends Component {
   handleNameUpdate(event) {
     event.preventDefault();
     this.setState({ noteName: event.target.value });
+    this.props.noteName(this.state.noteName);
   }
 
   handleContentUpdate(value) {
